@@ -12,15 +12,8 @@ void main(){
   count();
   printf("auto = %d \n extern =%d \n register = %d \n ",num,ext_num,r_num);
   count();
-
-
-
-
-
-
-
-
 }
+
  int count(){
   static int s_num=0;
   s_num++;
